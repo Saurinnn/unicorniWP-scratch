@@ -134,4 +134,19 @@ th {
   top: 1000px;
   left: 35%;
 }
-  
+
+.service-content{
+  display: flex;
+  justify-content: center;
+}
+.service-left img{
+  width: 306px;
+  height: auto;
+  margin: 0 20px;
+}
+.setvice-right li{
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 20px;
+}

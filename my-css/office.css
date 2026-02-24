@@ -1,0 +1,16 @@
+#office{
+  height: 800px;
+  padding: 100px 0;
+  width: 100%;
+}
+.office-content{
+  width: 60%;
+  margin: 0 auto;
+  }
+
+.office-title-back, .office-title{
+width: 400px;
+}
+.section-office-p{
+  left: 210px !important;
+}
