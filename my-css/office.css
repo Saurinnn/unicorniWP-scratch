@@ -14,3 +14,81 @@ width: 400px;
 .section-office-p{
   left: 210px !important;
 }
+.ceo-h3{
+  display: block;
+  color: #fff;
+  background-color: #0000ff;
+  font-weight: 700;
+  font-size: 24px;
+  width: 125px;
+  height: 41px;
+  text-align: center;
+  line-height: 41px;
+  margin-top: 80px;
+}
+.ceo{
+  height: auto;
+  display: flex;
+  border-bottom: 1px solid #0000ff;
+  margin-bottom: 50px;
+}
+
+.ceo-name{
+  font-weight: 700;
+  font-size: 40px;
+  margin: 0;
+}
+.ceo-rubi{
+  font-size: 20px;
+  font-weight: 600;
+  color: #797997;
+  padding-left: 20px;
+}
+
+
+.ceo-introduce{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+
+.intro-photo img{
+  width: 349px;
+  height: 390px;
+}
+.intro-text{
+  width: 50%;
+  font-weight: 300;
+}
+
+.office-info{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.office-detail{
+  background-color: #DAF6FA;
+  width: 442px;
+}
+.office-detail h3{
+  font-family: DotGothic16, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #797997;
+  border-bottom: 1px solid #0000ff;
+}
+
+.office-detail02{
+  background-color: #DAF6FA;
+  width: 442px;
+}
+
+.office-detail02 h3{
+  font-family: DotGothic16, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #797997;
+  border-bottom: 1px solid #0000ff;
+}
