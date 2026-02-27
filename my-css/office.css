@@ -64,25 +64,43 @@ width: 400px;
 
 .office-info{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
 }
 
+.office-info-left{
+  width: 50%;
+}
+.office-info-right{
+  width: 50%;
+}
+
+
+
 .office-detail{
   background-color: #DAF6FA;
-  width: 442px;
+  width: 90%;
+  margin: 0 auto 20px auto;
+  padding: 0 20px;
 }
 .office-detail h3{
+  margin: 0;
   font-family: DotGothic16, sans-serif;
   font-size: 36px;
   font-weight: 400;
   color: #797997;
   border-bottom: 1px solid #0000ff;
 }
+.office-detail p{
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0;
+  padding: 20px 0 20px 20px;
+}
+
 
 .office-detail02{
-  background-color: #DAF6FA;
-  width: 442px;
+  
 }
 
 .office-detail02 h3{
@@ -91,4 +109,9 @@ width: 400px;
   font-weight: 400;
   color: #797997;
   border-bottom: 1px solid #0000ff;
+}
+
+.office-contact a {
+  color: inherit;        /* 親要素の文字色を使う */
+  text-decoration: none; /* 下線を消す */
 }
