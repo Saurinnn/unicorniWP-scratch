@@ -115,3 +115,18 @@ width: 400px;
   color: inherit;        /* 親要素の文字色を使う */
   text-decoration: none; /* 下線を消す */
 }
+.map{
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+}
+.office-photo{
+  display: flex;
+}
+.office-photo img{
+  width: 95%;
+}
+
+.photo{
+  text-align: center;
+}
