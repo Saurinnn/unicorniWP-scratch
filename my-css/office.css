@@ -111,9 +111,15 @@ width: 400px;
   border-bottom: 1px solid #0000ff;
 }
 
-.office-contact a {
-  color: inherit;        /* 親要素の文字色を使う */
-  text-decoration: none; /* 下線を消す */
+.office-contact{
+  display: flex;
+  }
+
+.office-icon{
+  line-height: 45px;
+}
+.office-contact p{
+  padding: 20px 5px;
 }
 .map{
   width: 100%;

@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <!--ヘッダー埋め込みここから-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Exo:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Workbench&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Exo:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Oswald:wght@200..700&family=Workbench&display=swap" rel="stylesheet"> 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 <!--ヘッダー埋め込みここまで-->
   <title>Document</title>
@@ -288,19 +288,23 @@
       <h3>連絡先</h3>
 
 <div class="office-contact">
-  <p>
+  <p class="office-icon">
     <span class="material-symbols-outlined">
       phone_enabled
     </span>
+  </p>
+  <p>
     <a href="tel:0922628661">092-262-8661</a>
   </p>
 </div>
 
 <div class="office-contact">
-  <p>
+  <p class="office-icon">
     <span class="material-symbols-outlined">
       mail
     </span>
+  </p>
+  <p>  
     <a href="mailto:renraku@unicorn-japan.co.jp">
       renraku@unicorn-japan.co.jp
     </a>
@@ -336,19 +340,43 @@
   </div>
   <!--見出しここまで-->
   <div class="link-list">
-    <div class="link-list-name">
+    <a href="https://bexide.co.jp/" target="_blank"><div class="link-list-name">
       <p class="company-name">株式会社BeXibe</p>
       <p class="company-url">https://bexide.co.jp/</p>
-    </div>
+    </div></a>
     <div class="link-list-detail">
     <div class="link-list-L">
-      <img src="./images/bexibe.jpg" alt="">
+      <a href="https://bexide.co.jp/" target="_blank"><img src="./images/bexibe.jpg" alt=""></a>
     </div>
     <div class="link-list-R">
       <p>弊社のクライアント企業様です。コンピュータエンタテインメントの企画・開発・販売、キャラクターデザイン制作、CGアニメーション制作などを手掛けています</p>
     </div>
   </div>
   </div>
+  </div>
+</section>
+<!--Linkセクション-->
+<section id="contact">
+  <div class="background03"></div>
+  <div class="contact-content">
+    <h2>CONTACT</h2>
+    <p class="contact-title-p">お問い合わせ</p>
+    <p>ご質問やお仕事のご依頼、お見積もりなどお気軽にお問い合わせください。</p>
+    <button>お問い合わせはこちら</button>
+    <div class="contact-detail">
+      <p>電話でのお問い合わせ</p>
+      <div class="contact-tel">
+        <p class="office-icon">
+          <span class="material-symbols-outlined">
+            phone_enabled
+          </span>
+        </p>
+        <p>
+          <a href="tel:0922628661">092-262-8661</a>
+        </p>
+      </div>
+      <p>(平日10:00～17:00)</p>
+    </div>
   </div>
 </section>
 </body>

@@ -1,0 +1,364 @@
+@charset "UTF-8";
+
+/* =============================================
+   レスポンシブ対応 - スマートフォン (max-width: 540px)
+   ============================================= */
+
+@media screen and (max-width: 540px) {
+
+  /* ===== ヘッダー ===== */
+  .logo {
+    height: 90px;
+  }
+  .logo img {
+    width: 120px;
+    padding-top: 8px;
+  }
+  .nav {
+    height: 48px;
+  }
+
+  /* ===== カバー ===== */
+  .mycover-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px 60px;
+    height: auto;
+    min-height: 100vh;
+  }
+  .mycover-content img {
+    position: static;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  .mycover-text01 {
+    position: static;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .mycover-h2back {
+    width: 100%;
+    clip-path: none;
+  }
+  .mycover-text01 h2 {
+    position: static;
+    font-size: 22px;
+    padding: 10px 16px;
+    top: auto;
+    left: auto;
+  }
+  .mycover-text02 {
+    position: static;
+    width: 100%;
+    font-size: 13px;
+    margin-bottom: 16px;
+  }
+  .inquire-cover {
+    position: static;
+    width: 100%;
+  }
+  .inquire-cover h3 {
+    position: static;
+    font-size: 20px;
+    padding: 12px 20px;
+    top: auto;
+    left: auto;
+    display: inline-block;
+    margin-bottom: 8px;
+  }
+  .inquire-cover p {
+    position: static;
+    font-size: 14px;
+    background-color: #fff;
+    padding: 12px 16px;
+    top: auto;
+    left: auto;
+  }
+
+  /* ===== 共通：コンテナ幅 ===== */
+  .news-content,
+  .about-container,
+  .works-titlearea,
+  .office-content,
+  .link-content,
+  .contact-content {
+    width: 92%;
+  }
+
+  /* ===== News ===== */
+  #news {
+    background-position: right -100px top;
+  }
+  .news-content {
+    padding: 60px 0;
+  }
+  .news-image {
+    width: 100%;
+    height: auto;
+    margin: 40px 0;
+  }
+
+  /* ===== セクション見出し ===== */
+  .section-back,
+  .section-back-shadow {
+    width: 200px;
+    height: 40px;
+    clip-path: polygon(0% 0, 90% 0, 100% 100%, 0% 100%);
+  }
+  .section-title {
+    margin-bottom: 10px;
+  }
+  .section-title h2 {
+    font-size: 22px;
+    top: -6px;
+    left: 14px;
+  }
+  .section-title p {
+    font-size: 16px;
+    top: 8px;
+    left: 100px;
+  }
+  .section-about-p {
+    left: 125px !important;
+  }
+  .section-office-p {
+    left: 140px !important;
+  }
+  .link-p {
+    left: 75px !important;
+  }
+  .office-title-back,
+  .office-title {
+    width: 200px;
+  }
+
+  /* ===== About ===== */
+  #about {
+    padding: 60px 0;
+  }
+  .about-wrapper {
+    margin: 40px auto;
+  }
+  .about-textbox {
+    padding: 40px 24px;
+  }
+  .about-textbox p {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  /* ===== About02 ===== */
+  #about02 {
+    background-image: none;
+  }
+  .about-container {
+    padding: 60px 0;
+  }
+  .about02-content {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  .about02-content-left {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .about02-content-left h2 {
+    font-size: 28px;
+  }
+  .about02-content-left p {
+    font-size: 14px;
+  }
+  .about02-content-right {
+    width: 100%;
+    text-align: center;
+  }
+  .about02-content-right img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ===== Works ===== */
+  #works {
+    padding: 60px 0;
+  }
+  .works-titlearea {
+    padding-bottom: 80px;
+  }
+  .game {
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding: 80px 0 40px;
+  }
+  .game h2 {
+    font-size: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    top: -40px;
+    padding: 12px 20px;
+  }
+  .game-content {
+    flex-direction: column;
+    width: 92%;
+    padding-bottom: 20px;
+  }
+  .game-left img {
+    width: 120px;
+    margin: 0 0 10px 0;
+  }
+  table, th, td {
+    font-size: 11px;
+  }
+
+  .service {
+    width: 100%;
+    height: auto;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding: 80px 0 40px;
+    margin: 60px 0;
+  }
+  .service h2 {
+    font-size: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    top: -40px;
+    padding: 12px 20px;
+  }
+  .service-content {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+  .service-left img {
+    width: 180px;
+    margin-bottom: 20px;
+  }
+  .setvice-right li {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  /* ===== Office ===== */
+  #office {
+    padding: 60px 0;
+  }
+  .ceo-h3 {
+    font-size: 18px;
+    width: 90px;
+    height: 34px;
+    line-height: 34px;
+    margin-top: 50px;
+  }
+  .ceo-name {
+    font-size: 28px;
+  }
+  .ceo-rubi {
+    font-size: 16px;
+    padding-left: 10px;
+    line-height: 46px;
+  }
+  .ceo-introduce {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .intro-photo img {
+    width: 240px;
+    height: auto;
+    margin-bottom: 16px;
+  }
+  .intro-text {
+    width: 100%;
+    font-size: 14px;
+  }
+  .office-info {
+    flex-direction: column;
+  }
+  .office-info-left,
+  .office-info-right {
+    width: 100%;
+  }
+  .office-detail {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .office-detail h3 {
+    font-size: 24px;
+  }
+  .office-detail p {
+    font-size: 16px;
+    padding: 12px 0 12px 12px;
+  }
+  .map iframe {
+    width: 100%;
+    height: 220px;
+  }
+  .office-photo {
+    flex-direction: column;
+  }
+  .office-photo img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  /* ===== Link ===== */
+  #link {
+    padding-bottom: 80px;
+  }
+  .section-title-link {
+    margin-bottom: 30px;
+  }
+  .company-name {
+    font-size: 18px;
+  }
+  .company-url {
+    font-size: 13px;
+    line-height: 32px;
+    margin-left: 10px;
+  }
+  .link-list-detail {
+    flex-direction: column;
+  }
+  .link-list-L,
+  .link-list-R {
+    width: 100%;
+  }
+  .link-list-R {
+    padding: 16px 20px;
+    font-size: 14px;
+  }
+
+  /* ===== Contact ===== */
+  #contact {
+    height: auto;
+    min-height: 600px;
+  }
+  .contact-content {
+    width: 92%;
+    padding: 60px 0;
+  }
+  .contact-content h2 {
+    font-size: 48px;
+  }
+  .contact-title-p {
+    font-size: 22px !important;
+    margin-bottom: 12px !important;
+  }
+  .contact-content p {
+    font-size: 14px;
+  }
+  .contact-content button {
+    font-size: 20px;
+    padding: 18px 24px;
+    margin: 30px 0;
+    width: 100%;
+  }
+
+}

@@ -43,3 +43,9 @@ select {
 font: inherit;
 }
 
+a{
+  color: inherit;        /* 親要素の文字色を使う */
+  text-decoration: none; /* 下線を消す */
+}
+  
+
