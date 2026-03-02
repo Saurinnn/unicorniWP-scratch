@@ -8,75 +8,62 @@
 
   /* ===== ヘッダー ===== */
   .logo {
-    height: 90px;
-  }
-  .logo img {
-    width: 120px;
-    padding-top: 8px;
+    display: none;
   }
   .nav {
-    height: 48px;
+    height: 60px;
   }
 
   /* ===== カバー ===== */
-  .mycover-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px 20px 60px;
-    height: auto;
-    min-height: 100vh;
+  .mycover-content img{
+    width: 1000px;
+    top: 30%;
   }
-  .mycover-content img {
-    position: static;
-    width: 100%;
-    max-width: 400px;
-    margin-bottom: 20px;
+  .mycover-text01{
+    top: 5%;
+    left: 2%;
+    width: 350px;
   }
-  .mycover-text01 {
-    position: static;
-    width: 100%;
-    margin-bottom: 16px;
+  
+  .mycover-text01 h2{
+    font-size: 24px;
+    top: -20px;
+    left: 10%;
   }
-  .mycover-h2back {
-    width: 100%;
-    clip-path: none;
-  }
-  .mycover-text01 h2 {
-    position: static;
-    font-size: 22px;
-    padding: 10px 16px;
-    top: auto;
-    left: auto;
-  }
-  .mycover-text02 {
-    position: static;
-    width: 100%;
-    font-size: 13px;
-    margin-bottom: 16px;
-  }
-  .inquire-cover {
-    position: static;
-    width: 100%;
-  }
-  .inquire-cover h3 {
-    position: static;
-    font-size: 20px;
-    padding: 12px 20px;
-    top: auto;
-    left: auto;
-    display: inline-block;
-    margin-bottom: 8px;
-  }
-  .inquire-cover p {
-    position: static;
-    font-size: 14px;
-    background-color: #fff;
-    padding: 12px 16px;
-    top: auto;
-    left: auto;
-  }
+  .mycover-h2back{
+    width: 360px;
+    height: 30px;
+    }
+    .mycover-text02{
+      top: 10%;
+      left: 17%;
+      font-size: 10px;
+      width: 300px;
+      height: auto;
+      padding: 20px;
+    }
 
+    .inquire-cover{
+      top: 50%;
+      left: 10%;
+    }
+    
+    .inquire-cover h3{
+      font-size: 20px;
+      padding: 20px 40px;
+      top: -20px;
+      }
+    
+    .inquire-cover p{
+      font-size: 12px;
+      padding: 20px 10px;
+      top: 50px;
+      left: 20px;
+    }
+    
+    
+    
+  
   /* ===== 共通：コンテナ幅 ===== */
   .news-content,
   .about-container,
@@ -91,6 +78,7 @@
   #news {
     background-position: right -100px top;
   }
+
   .news-content {
     padding: 60px 0;
   }
@@ -109,15 +97,16 @@
   }
   .section-title {
     margin-bottom: 10px;
+    margin-left: 10px;
   }
   .section-title h2 {
     font-size: 22px;
-    top: -6px;
+    top: 6px;
     left: 14px;
   }
   .section-title p {
     font-size: 16px;
-    top: 8px;
+    top: 12px;
     left: 100px;
   }
   .section-about-p {
@@ -141,6 +130,14 @@
   .about-wrapper {
     margin: 40px auto;
   }
+
+  .about-back{
+    width: 250px;
+  }
+  .about-shadow{
+    width: 250px;
+  }
+
   .about-textbox {
     padding: 40px 24px;
   }
@@ -181,10 +178,10 @@
 
   /* ===== Works ===== */
   #works {
-    padding: 60px 0;
+    padding: 60px 0 200px 0;
   }
   .works-titlearea {
-    padding-bottom: 80px;
+    padding-bottom: 250px;
   }
   .game {
     width: 100%;
@@ -192,10 +189,11 @@
     border-right: none;
     border-radius: 0;
     padding: 80px 0 40px;
+    margin-bottom: 200px;
   }
   .game h2 {
     font-size: 20px;
-    left: 50%;
+    left: 30%;
     transform: translateX(-50%);
     white-space: nowrap;
     top: -40px;
@@ -225,10 +223,10 @@
   }
   .service h2 {
     font-size: 20px;
-    left: 50%;
+    left: 40%;
     transform: translateX(-50%);
     white-space: nowrap;
-    top: -40px;
+    top: 1300px;
     padding: 12px 20px;
   }
   .service-content {
@@ -249,6 +247,14 @@
   #office {
     padding: 60px 0;
   }
+
+  .office-title{
+    width: 250px;
+  }
+  .office-title-back{
+    width: 250px;
+  }
+
   .ceo-h3 {
     font-size: 18px;
     width: 90px;
