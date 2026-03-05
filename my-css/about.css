@@ -1,4 +1,4 @@
-#about{
+#about {
   position: relative;
   width: 100%;
   height: auto;
@@ -18,12 +18,12 @@
   z-index: -1;
 }
 
-.about-container{
+.about-container {
   margin: 0 auto;
   width: 60%;
-  }
+}
 
-.section-about-p{
+.section-about-p {
   left: 190px !important;
 }
 
@@ -45,4 +45,16 @@
   color: #000;
   line-height: 1.6;
   margin-bottom: 30px;
+}
+
+/* Scroll Animation */
+.about-textbox {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.about-textbox.fade-in {
+  opacity: 1;
+  transform: translateY(0);
 }

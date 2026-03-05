@@ -1,4 +1,4 @@
-#works{
+#works {
   width: 100%;
   height: auto;
   position: relative;
@@ -17,18 +17,19 @@
   height: 100%;
   z-index: -1;
 }
-.works-titlearea{
+
+.works-titlearea {
   margin: 0 auto;
   width: 60%;
   padding-bottom: 150px;
 }
 
-.works-contentsarea{
+.works-contentsarea {
   width: 100%;
   position: relative;
 }
 
-.game{
+.game {
   width: 60%;
   height: auto;
   background-color: #fff;
@@ -38,9 +39,9 @@
   padding: 150px 0;
 }
 
-.game h2{
+.game h2 {
   position: absolute;
-  width:auto;
+  width: auto;
   font-size: 36px;
   font-weight: 700;
   color: #fff;
@@ -50,7 +51,7 @@
   left: 50%;
 }
 
-.game-content{
+.game-content {
   display: flex;
   margin: 0 auto;
   width: 80%;
@@ -59,14 +60,14 @@
   padding-bottom: 20px;
 }
 
-.game-left img{
+.game-left img {
   width: 180px;
   height: auto;
   margin: 0 20px;
 
 }
 
-.game-right-title{
+.game-right-title {
   font-size: 18px;
   font-weight: 600;
   color: #000;
@@ -76,22 +77,20 @@
   padding-bottom: 8px;
 }
 
-.game-right-title::after{
+.game-right-title::after {
   content: "";
   position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
   height: 3px;
-  background: linear-gradient(
-    to right,
-    #6f6bff 0%,
-    #a5e5ff 100%
-  );
+  background: linear-gradient(to right,
+      #6f6bff 0%,
+      #a5e5ff 100%);
 }
 
-  
-.game-right-title h3{
+
+.game-right-title h3 {
   margin: 0;
 }
 
@@ -100,7 +99,9 @@ table {
   border-collapse: collapse;
   border: 0;
 }
-th, td {
+
+th,
+td {
   border: 0;
   padding: 6px 12px;
   text-align: left;
@@ -108,11 +109,12 @@ th, td {
   font-weight: 800;
   font-size: 12px;
 }
+
 th {
   white-space: nowrap;
 }
 
-.service{
+.service {
   width: 60%;
   height: 800px;
   background-color: #fff;
@@ -120,12 +122,13 @@ th {
   border: 5px solid #0000ff;
   border-right: none;
   padding: 150px 0;
-  margin: 150px 0 150px auto; /* ← 右寄せ */
+  margin: 150px 0 150px auto;
+  /* ← 右寄せ */
 }
 
-.service h2{
+.service h2 {
   position: absolute;
-  width:auto;
+  width: auto;
   font-size: 36px;
   font-weight: 700;
   color: #fff;
@@ -135,18 +138,34 @@ th {
   left: 35%;
 }
 
-.service-content{
+.service-content {
   display: flex;
   justify-content: center;
 }
-.service-left img{
+
+.service-left img {
   width: 306px;
   height: auto;
   margin: 0 20px;
 }
-.setvice-right li{
+
+.setvice-right li {
   font-size: 18px;
   font-weight: 600;
   color: #000;
   margin-bottom: 20px;
+}
+
+/* Scroll Animations */
+.game-content,
+.service-content {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.game-content.fade-in,
+.service-content.fade-in {
+  opacity: 1;
+  transform: translateY(0);
 }

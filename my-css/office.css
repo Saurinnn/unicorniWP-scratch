@@ -1,20 +1,24 @@
-#office{
+#office {
   height: auto;
   padding: 100px 0;
   width: 100%;
 }
-.office-content{
+
+.office-content {
   width: 60%;
   margin: 0 auto;
-  }
-
-.office-title-back, .office-title{
-width: 400px;
 }
-.section-office-p{
+
+.office-title-back,
+.office-title {
+  width: 400px;
+}
+
+.section-office-p {
   left: 210px !important;
 }
-.ceo-h3{
+
+.ceo-h3 {
   display: block;
   color: #fff;
   background-color: #0000ff;
@@ -26,19 +30,21 @@ width: 400px;
   line-height: 41px;
   margin-top: 80px;
 }
-.ceo{
+
+.ceo {
   height: auto;
   display: flex;
   border-bottom: 1px solid #0000ff;
   margin-bottom: 50px;
 }
 
-.ceo-name{
+.ceo-name {
   font-weight: 700;
   font-size: 40px;
   margin: 0;
 }
-.ceo-rubi{
+
+.ceo-rubi {
   font-size: 20px;
   font-weight: 600;
   color: #797997;
@@ -46,44 +52,47 @@ width: 400px;
 }
 
 
-.ceo-introduce{
+.ceo-introduce {
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
 }
 
 
-.intro-photo img{
+.intro-photo img {
   width: 349px;
   height: 390px;
 }
-.intro-text{
+
+.intro-text {
   width: 50%;
   font-weight: 300;
 }
 
-.office-info{
+.office-info {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-.office-info-left{
-  width: 50%;
-}
-.office-info-right{
+.office-info-left {
   width: 50%;
 }
 
+.office-info-right {
+  width: 50%;
+}
 
 
-.office-detail{
+
+.office-detail {
   background-color: #DAF6FA;
   width: 90%;
   margin: 0 auto 20px auto;
   padding: 0 20px;
 }
-.office-detail h3{
+
+.office-detail h3 {
   margin: 0;
   font-family: DotGothic16, sans-serif;
   font-size: 36px;
@@ -91,7 +100,8 @@ width: 400px;
   color: #797997;
   border-bottom: 1px solid #0000ff;
 }
-.office-detail p{
+
+.office-detail p {
   font-size: 24px;
   font-weight: 300;
   margin: 0;
@@ -99,11 +109,9 @@ width: 400px;
 }
 
 
-.office-detail02{
-  
-}
+.office-detail02 {}
 
-.office-detail02 h3{
+.office-detail02 h3 {
   font-family: DotGothic16, sans-serif;
   font-size: 36px;
   font-weight: 400;
@@ -111,28 +119,74 @@ width: 400px;
   border-bottom: 1px solid #0000ff;
 }
 
-.office-contact{
+.office-contact {
   display: flex;
-  }
+}
 
-.office-icon{
+.office-icon {
   line-height: 45px;
 }
-.office-contact p{
+
+.office-contact p {
   padding: 15px 5px;
 }
-.map{
+
+.map {
   width: 100%;
   text-align: center;
   padding: 50px 0;
 }
-.office-photo{
+
+.office-photo {
   display: flex;
 }
-.office-photo img{
+
+.office-photo img {
   width: 95%;
 }
 
-.photo{
+.photo {
   text-align: center;
+}
+
+/* Scroll Animations */
+.ceo-h3,
+.ceo,
+.ceo-introduce,
+.map,
+.office-photo {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.ceo-h3.fade-in,
+.ceo.fade-in,
+.ceo-introduce.fade-in,
+.map.fade-in,
+.office-photo.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.office-info-left {
+  opacity: 0;
+  transform: translateX(-80px);
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.office-info-left.fade-in {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.office-info-right {
+  opacity: 0;
+  transform: translateX(80px);
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.office-info-right.fade-in {
+  opacity: 1;
+  transform: translateX(0);
 }

@@ -1,29 +1,29 @@
-#about02{
+#about02 {
   background-image: url(../images/unicorn-back-left.png);
-  background-repeat: repeat-y;      
-  background-position: left top;    
+  background-repeat: repeat-y;
+  background-position: left top;
   width: 100%;
   height: auto;
 }
 
-.about-container{
+.about-container {
   margin: 0 auto;
   width: 60%;
   padding: 100px 0;
 }
 
-.about02-content{
-  display: flex; 
+.about02-content {
+  display: flex;
   align-items: center;
   padding: 10px 0;
 }
 
-.about02-content-left{
+.about02-content-left {
   width: 60%;
   padding: 10px 20px;
 }
 
-.about02-content-left h2{
+.about02-content-left h2 {
   font-size: 48px;
   font-weight: 400;
   color: #797997;
@@ -32,13 +32,36 @@
   margin: 0;
 }
 
-.about02-content-left p{
+.about02-content-left p {
   font-size: 24px;
   font-weight: 300;
   color: #000;
 }
 
-.about02-content-right img{
+.about02-content-right img {
   width: 366px;
   height: 244px;
+}
+
+/* Scroll Animations */
+.about02-content-left {
+  opacity: 0;
+  transform: translateX(-80px);
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.about02-content-left.fade-in {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.about02-content-right {
+  opacity: 0;
+  transform: translateX(80px);
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.about02-content-right.fade-in {
+  opacity: 1;
+  transform: translateX(0);
 }
