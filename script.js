@@ -7,7 +7,8 @@ document.addEventListener('DOMContentLoaded', function () {
     ".game-content", ".service-content",
     ".ceo-h3", ".ceo", ".ceo-introduce", ".office-info-left", ".office-info-right", ".map", ".office-photo",
     ".link-list",
-    ".contact-h2", ".contact-title-p", ".contact-button", ".contact-p2", ".contact-detail"
+    ".contact-h2", ".contact-title-p", ".contact-button", ".contact-p2", ".contact-detail",
+    ".main-work-h3", ".detail-title", ".detail-text-box"
   ];
 
   const elements = document.querySelectorAll(targets.join(', '));
