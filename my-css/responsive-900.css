@@ -178,7 +178,7 @@
   .service h2 {
     font-size: 28px;
     padding: 20px 40px;
-    top: 1420px;
+    top: 1720px;
     left: 15%;
   }
 
@@ -257,7 +257,7 @@
   }
 
   .contact-content p {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .contact-title-p {
@@ -267,6 +267,16 @@
   .contact-content button {
     font-size: 28px;
     padding: 24px 32px;
+  }
+
+  .contact-tel {
+    align-items: center;
+  }
+
+  .contact-tel span {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
   }
 
   /* ===== Recruit ===== */
